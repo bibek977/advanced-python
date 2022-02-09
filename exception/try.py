@@ -17,8 +17,9 @@ while(True):
         elif(n>rand):
             print("Guess Lower")
 
-    except Exception as e:
-        print(f"Error : {e}")
+    except Exception as b:
+        # print(f"Error : {b}")
+        print(f"Error : {b.__str__()[20::]}")
 
 print("Thanks")
 
